@@ -10,4 +10,10 @@
   });
 </script>
 
+<style>
+  :global(body) {
+    opacity: 1;
+  }
+</style>
+
 <slot />
