@@ -108,7 +108,7 @@
       name: 'Arvin',
       github: 'https://github.com/Arvintian',
       class: '14 级计科',
-      company: '新浪',
+      company: '百度',
       introHtml: `<p>506 元老级人物</p>
         <p>SDUT OnlineJudge 2 平台开发者</p>
         <p>擅长 Python 等语言，精通软件开发、运维等</p>
@@ -481,9 +481,7 @@
       </div>
     </div>
     <div class="mt-12 lg:mt-16 mb-12 text-center">
-      <a href="https://wj.qq.com/s2/12624172/b09f/" target="_blank" rel="noopener noreferrer"
-        ><button class="btn btn-primary">立即报名</button></a
-      >
+      <button class="btn btn-primary btn-disabled">已结束，请关注后续招募</button>
     </div>
   </div>
 </div>
