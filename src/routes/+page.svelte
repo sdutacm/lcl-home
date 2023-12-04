@@ -489,7 +489,7 @@
 <footer class="footer p-10 bg-base-200 text-base-content">
   <div>
     <img alt="LCL Logo" src={lclIcon} class="w-12 h-12" />
-    <p>Light Cone Lab<br />© 2023 SDUTACM. All Rights Reserved.</p>
+    <p>Light Cone Lab<br />© 2023-present SDUTACM. All Rights Reserved.</p>
   </div>
   <div>
     <span class="footer-title">Links</span>

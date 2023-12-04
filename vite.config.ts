@@ -17,8 +17,8 @@ function uploadFileToCos(isUpload: boolean) {
   return CosPlugin({
     SecretId: process.env.SECRET_ID,
     SecretKey: process.env.SECRET_KEY,
-    Region: 'ap-beijing',
-    Bucket: 'sdutacm-1252277595',
+    Region: process.env.COS_REGION,
+    Bucket: process.env.COS_BUCKET,
     bucketName: '',
     remoteDir: 'lcl',
     from: 'build',
@@ -27,5 +27,5 @@ function uploadFileToCos(isUpload: boolean) {
 }
 
 export default defineConfig({
-  plugins: [sveltekit(), uploadFileToCos(process.env.NODE_ENV == 'production')],
+  plugins: [sveltekit()],
 });

@@ -1,8 +1,6 @@
 import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/kit/vite';
 
-const cdnPrePath = 'https://sdutacm.cdn.blueverse.cc/lcl';
-
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	// Consult https://kit.svelte.dev/docs/integrations#preprocessors
@@ -22,9 +20,9 @@ const config = {
       precompress: false,
       strict: true,
     }),
-    paths: {
-      assets: process.env.NODE_ENV == 'production' ? cdnPrePath : ``,
-    },
+    // paths: {
+    //   assets: process.env.NODE_ENV == 'production' ? CDN_PATH : ``,
+    // },
 	},
 };
 
