@@ -458,16 +458,17 @@
   <h1 class="text-3xl lg:text-4xl font-bold mb-8 select-none">加入我们</h1>
   <div class="px-4 lg:px-12">
     <h2 class="text-2xl lg:text-5xl text-center mt-8 lg:mt-16 select-none">
-      2023 暑假集训即将开始！
+      2024 寒假集训即将开始！
     </h2>
     <div class="mt-12 flex flex-col lg:flex-row gap-8 justify-between">
       <div>
         <h3 class="text-2xl font-bold text-base-content text-opacity-75 mb-6">你需要满足：</h3>
         <ul>
-          <li class="mb-2">1. 基本程序设计能力和数据结构知识</li>
-          <li class="mb-2">2. 对任何相关技术的热情和好奇心</li>
-          <li class="mb-2">3. 提问和解决问题的能力</li>
-          <li class="mb-2">4. 愿意暑假留校</li>
+          <li class="mb-2">1. 21级 && 目标 == 就业 || 22级</li>
+          <li class="mb-2">2. 基本的数据结构知识、程序设计能力和扎实的码风</li>
+          <li class="mb-2">3. 对任何相关技术的热情和好奇心，有强烈的自驱力</li>
+          <li class="mb-2">4. 精准提问和解决实际问题的能力</li>
+          <li class="mb-2">5. 愿意假期留校</li>
         </ul>
       </div>
       <div>
@@ -481,7 +482,9 @@
       </div>
     </div>
     <div class="mt-12 lg:mt-16 mb-12 text-center">
-      <button class="btn btn-primary btn-disabled">已结束，请关注后续招募</button>
+      <a href="https://wj.qq.com/s2/13990825/93no/" target="_blank" rel="noopener noreferrer"
+        ><button class="btn btn-primary">立即报名</button></a
+      >
     </div>
   </div>
 </div>
